@@ -6,7 +6,7 @@ import { UserModel } from "@/models/User";
 const MIN_PASSWORD_LENGTH = 8;
 // 註冊驗證碼，目前先寫死；只在伺服器端比對，前端看不到
 // 用同一個驗證碼註冊的人會加入同一本共享帳本
-const REGISTER_CODE = "love";
+const REGISTER_CODE = "coding";
 
 // POST /api/auth/register  body: { email, password, name, code }
 // 註冊成功後直接登入（設定 cookie）
